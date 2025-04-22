@@ -1,0 +1,12 @@
+URL,Method,Allow-Origin,Allow-Credentials,Severity,Issue
+https://cors-anywhere.herokuapp.com/,OPTIONS,*,,High,HIGH RISK: Any domain can access resources.
+https://cors-anywhere.herokuapp.com/,OPTIONS,*,,Medium,MEDIUM RISK: Exposed Headers (access-control-allow-origin)
+https://cors-anywhere.herokuapp.com/,GET,*,,High,HIGH RISK: Any domain can access resources.
+https://cors-anywhere.herokuapp.com/,POST,*,,High,HIGH RISK: Any domain can access resources.
+https://cors-anywhere.herokuapp.com/,PUT,*,,High,HIGH RISK: Any domain can access resources.
+https://cors-anywhere.herokuapp.com/,DELETE,*,,High,HIGH RISK: Any domain can access resources.
+https://cors-anywhere.herokuapp.com/,GET,*,,High,HIGH RISK: Any domain can access resources.
+https://cors-anywhere.herokuapp.com/,POST,*,,High,HIGH RISK: Any domain can access resources.
+https://cors-anywhere.herokuapp.com/,PUT,*,,High,HIGH RISK: Any domain can access resources.
+https://cors-anywhere.herokuapp.com/,DELETE,*,,High,HIGH RISK: Any domain can access resources.
+https://cors-anywhere.herokuapp.com/,OPTIONS,*,,High,HIGH RISK: Any domain can access resources.

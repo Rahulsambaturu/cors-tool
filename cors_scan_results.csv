@@ -1,0 +1,99 @@
+URL,CORS Issues
+https://123moviesfreetv.com/,No major CORS issues found
+https://cors-anywhere.herokuapp.com/,GET,*,,High,HIGH RISK: Any website can access this API.
+https://cors-anywhere.herokuapp.com/,POST,*,,High,HIGH RISK: Any website can access this API.
+https://cors-anywhere.herokuapp.com/,PUT,*,,High,HIGH RISK: Any website can access this API.
+https://cors-anywhere.herokuapp.com/,DELETE,*,,High,HIGH RISK: Any website can access this API.
+https://cors-anywhere.herokuapp.com/,OPTIONS,*,,High,HIGH RISK: Any website can access this API.
+https://httpbin.org/get,GET,https://malicious.com,true,High,CRITICAL: Credentials are allowed with wildcard origin!
+https://httpbin.org/get,POST,https://malicious.com,true,High,CRITICAL: Credentials are allowed with wildcard origin!
+https://httpbin.org/get,PUT,https://malicious.com,true,High,CRITICAL: Credentials are allowed with wildcard origin!
+https://httpbin.org/get,DELETE,https://malicious.com,true,High,CRITICAL: Credentials are allowed with wildcard origin!
+https://httpbin.org/get,OPTIONS,https://malicious.com,true,High,CRITICAL: Credentials are allowed with wildcard origin!
+https://httpbin.org/get,OPTIONS,https://malicious.com,true,High,HIGH RISK: PUT/DELETE methods are accessible via CORS.
+https://jsonplaceholder.typicode.com/posts,GET,https://malicious.com,true,High,CRITICAL: Credentials are allowed with wildcard origin!
+https://jsonplaceholder.typicode.com/posts,POST,https://malicious.com,true,High,CRITICAL: Credentials are allowed with wildcard origin!
+https://jsonplaceholder.typicode.com/posts,PUT,https://malicious.com,true,High,CRITICAL: Credentials are allowed with wildcard origin!
+https://jsonplaceholder.typicode.com/posts,DELETE,https://malicious.com,true,High,CRITICAL: Credentials are allowed with wildcard origin!
+https://jsonplaceholder.typicode.com/posts,OPTIONS,https://malicious.com,true,High,CRITICAL: Credentials are allowed with wildcard origin!
+https://jsonplaceholder.typicode.com/posts,OPTIONS,https://malicious.com,true,High,HIGH RISK: PUT/DELETE methods are accessible via CORS.
+http://127.0.0.1:5000,GET,*,true,High,HIGH RISK: Any website can access this API.
+http://127.0.0.1:5000,GET,*,true,High,CRITICAL: Credentials are allowed with wildcard origin!
+http://127.0.0.1:5000,GET,*,true,High,HIGH RISK: PUT/DELETE methods are accessible via CORS.
+http://127.0.0.1:5000,POST,*,true,High,HIGH RISK: Any website can access this API.
+http://127.0.0.1:5000,POST,*,true,High,CRITICAL: Credentials are allowed with wildcard origin!
+http://127.0.0.1:5000,POST,*,true,High,HIGH RISK: PUT/DELETE methods are accessible via CORS.
+http://127.0.0.1:5000,PUT,*,true,High,HIGH RISK: Any website can access this API.
+http://127.0.0.1:5000,PUT,*,true,High,CRITICAL: Credentials are allowed with wildcard origin!
+http://127.0.0.1:5000,PUT,*,true,High,HIGH RISK: PUT/DELETE methods are accessible via CORS.
+http://127.0.0.1:5000,DELETE,*,true,High,HIGH RISK: Any website can access this API.
+http://127.0.0.1:5000,DELETE,*,true,High,CRITICAL: Credentials are allowed with wildcard origin!
+http://127.0.0.1:5000,DELETE,*,true,High,HIGH RISK: PUT/DELETE methods are accessible via CORS.
+http://127.0.0.1:5000,OPTIONS,*,true,High,HIGH RISK: Any website can access this API.
+http://127.0.0.1:5000,OPTIONS,*,true,High,CRITICAL: Credentials are allowed with wildcard origin!
+http://127.0.0.1:5000,OPTIONS,*,true,High,HIGH RISK: PUT/DELETE methods are accessible via CORS.
+http://127.0.0.1:5000,GET,*,true,High,HIGH RISK: Any website can access this API.
+http://127.0.0.1:5000,GET,*,true,High,CRITICAL: Credentials are allowed with wildcard origin!
+http://127.0.0.1:5000,GET,*,true,High,HIGH RISK: PUT/DELETE methods are accessible via CORS.
+http://127.0.0.1:5000,POST,*,true,High,HIGH RISK: Any website can access this API.
+http://127.0.0.1:5000,POST,*,true,High,CRITICAL: Credentials are allowed with wildcard origin!
+http://127.0.0.1:5000,POST,*,true,High,HIGH RISK: PUT/DELETE methods are accessible via CORS.
+http://127.0.0.1:5000,PUT,*,true,High,HIGH RISK: Any website can access this API.
+http://127.0.0.1:5000,PUT,*,true,High,CRITICAL: Credentials are allowed with wildcard origin!
+http://127.0.0.1:5000,PUT,*,true,High,HIGH RISK: PUT/DELETE methods are accessible via CORS.
+http://127.0.0.1:5000,DELETE,*,true,High,HIGH RISK: Any website can access this API.
+http://127.0.0.1:5000,DELETE,*,true,High,CRITICAL: Credentials are allowed with wildcard origin!
+http://127.0.0.1:5000,DELETE,*,true,High,HIGH RISK: PUT/DELETE methods are accessible via CORS.
+http://127.0.0.1:5000,OPTIONS,*,true,High,HIGH RISK: Any website can access this API.
+http://127.0.0.1:5000,OPTIONS,*,true,High,CRITICAL: Credentials are allowed with wildcard origin!
+http://127.0.0.1:5000,OPTIONS,*,true,High,HIGH RISK: PUT/DELETE methods are accessible via CORS.
+https://cors-anywhere.herokuapp.com/,GET,*,,High,HIGH RISK: Any website can access this API.
+https://cors-anywhere.herokuapp.com/,POST,*,,High,HIGH RISK: Any website can access this API.
+https://cors-anywhere.herokuapp.com/,PUT,*,,High,HIGH RISK: Any website can access this API.
+https://cors-anywhere.herokuapp.com/,DELETE,*,,High,HIGH RISK: Any website can access this API.
+https://cors-anywhere.herokuapp.com/,OPTIONS,*,,High,HIGH RISK: Any website can access this API.
+http://127.0.0.1:5000,GET,*,true,High,HIGH RISK: Any website can access this API.
+http://127.0.0.1:5000,GET,*,true,High,CRITICAL: Credentials are allowed with wildcard origin!
+http://127.0.0.1:5000,GET,*,true,High,HIGH RISK: PUT/DELETE methods are accessible via CORS.
+http://127.0.0.1:5000,POST,*,true,High,HIGH RISK: Any website can access this API.
+http://127.0.0.1:5000,POST,*,true,High,CRITICAL: Credentials are allowed with wildcard origin!
+http://127.0.0.1:5000,POST,*,true,High,HIGH RISK: PUT/DELETE methods are accessible via CORS.
+http://127.0.0.1:5000,PUT,*,true,High,HIGH RISK: Any website can access this API.
+http://127.0.0.1:5000,PUT,*,true,High,CRITICAL: Credentials are allowed with wildcard origin!
+http://127.0.0.1:5000,PUT,*,true,High,HIGH RISK: PUT/DELETE methods are accessible via CORS.
+http://127.0.0.1:5000,DELETE,*,true,High,HIGH RISK: Any website can access this API.
+http://127.0.0.1:5000,DELETE,*,true,High,CRITICAL: Credentials are allowed with wildcard origin!
+http://127.0.0.1:5000,DELETE,*,true,High,HIGH RISK: PUT/DELETE methods are accessible via CORS.
+http://127.0.0.1:5000,OPTIONS,*,true,High,HIGH RISK: Any website can access this API.
+http://127.0.0.1:5000,OPTIONS,*,true,High,CRITICAL: Credentials are allowed with wildcard origin!
+http://127.0.0.1:5000,OPTIONS,*,true,High,HIGH RISK: PUT/DELETE methods are accessible via CORS.
+https://cors-anywhere.herokuapp.com/,GET,*,,High,HIGH RISK: Any website can access this API.
+https://cors-anywhere.herokuapp.com/,POST,*,,High,HIGH RISK: Any website can access this API.
+https://cors-anywhere.herokuapp.com/,PUT,*,,High,HIGH RISK: Any website can access this API.
+https://cors-anywhere.herokuapp.com/,DELETE,*,,High,HIGH RISK: Any website can access this API.
+https://cors-anywhere.herokuapp.com/,OPTIONS,*,,High,HIGH RISK: Any website can access this API.
+https://cors-anywhere.herokuapp.com/,GET,*,,High,HIGH RISK: Any website can access this API.
+https://cors-anywhere.herokuapp.com/,POST,*,,High,HIGH RISK: Any website can access this API.
+https://cors-anywhere.herokuapp.com/,PUT,*,,High,HIGH RISK: Any website can access this API.
+https://cors-anywhere.herokuapp.com/,DELETE,*,,High,HIGH RISK: Any website can access this API.
+https://cors-anywhere.herokuapp.com/,OPTIONS,*,,High,HIGH RISK: Any website can access this API.
+https://cors-anywhere.herokuapp.com/,GET,*,,High,HIGH RISK: Any website can access this API.
+https://cors-anywhere.herokuapp.com/,POST,*,,High,HIGH RISK: Any website can access this API.
+https://cors-anywhere.herokuapp.com/,PUT,*,,High,HIGH RISK: Any website can access this API.
+https://cors-anywhere.herokuapp.com/,DELETE,*,,High,HIGH RISK: Any website can access this API.
+https://cors-anywhere.herokuapp.com/,OPTIONS,*,,High,HIGH RISK: Any website can access this API.
+https://cors-anywhere.herokuapp.com/,GET,*,,High,HIGH RISK: Any website can access this API.
+https://cors-anywhere.herokuapp.com/,POST,*,,High,HIGH RISK: Any website can access this API.
+https://cors-anywhere.herokuapp.com/,PUT,*,,High,HIGH RISK: Any website can access this API.
+https://cors-anywhere.herokuapp.com/,DELETE,*,,High,HIGH RISK: Any website can access this API.
+https://cors-anywhere.herokuapp.com/,OPTIONS,*,,High,HIGH RISK: Any website can access this API.
+https://cors-anywhere.herokuapp.com/,GET,*,,High,HIGH RISK: Any website can access this API.
+https://cors-anywhere.herokuapp.com/,POST,*,,High,HIGH RISK: Any website can access this API.
+https://cors-anywhere.herokuapp.com/,PUT,*,,High,HIGH RISK: Any website can access this API.
+https://cors-anywhere.herokuapp.com/,DELETE,*,,High,HIGH RISK: Any website can access this API.
+https://cors-anywhere.herokuapp.com/,OPTIONS,*,,High,HIGH RISK: Any website can access this API.
+https://cors-anywhere.herokuapp.com/,GET,*,,High,HIGH RISK: Any website can access this API.
+https://cors-anywhere.herokuapp.com/,POST,*,,High,HIGH RISK: Any website can access this API.
+https://cors-anywhere.herokuapp.com/,PUT,*,,High,HIGH RISK: Any website can access this API.
+https://cors-anywhere.herokuapp.com/,DELETE,*,,High,HIGH RISK: Any website can access this API.
+https://cors-anywhere.herokuapp.com/,OPTIONS,*,,High,HIGH RISK: Any website can access this API.
